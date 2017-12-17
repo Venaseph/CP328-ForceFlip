@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    private let choose : UILabel = {
+        let label = UILabel()
+        //label.text = "chooseWisely"
+        label.textColor = UIColor.white
+        label.textAlignment = .center
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,15 +25,18 @@ class ViewController: UIViewController {
         let rls: UIImage = UIImage(named: "BlueLightSaber.png")!
         let bls: UIImage = UIImage(named: "RedLightSaber.png")!
 
-        //MARK: ImageView for LightSabers
+        //MARK: UIImageView for LightSabers
         var imageView = UIImageView()
         self.view.addSubview(imageView)
         imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         
-        //MARK: 
-        
-    }
+        //MARK: Label Strings
 
+
+        //place my label
+        choose.frame = CGRect(x: view.frame.width / 2 - 100, y: view.frame.height / 2 - 100, width: 200, height: 50)
+        view.addSubview(choose)
+
+    }
     
 }
-
