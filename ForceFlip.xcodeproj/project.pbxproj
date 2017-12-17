@@ -13,6 +13,11 @@
 		73C567091FE61691008B817A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C567081FE61691008B817A /* Assets.xcassets */; };
 		73C5670C1FE61691008B817A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C5670A1FE61691008B817A /* LaunchScreen.storyboard */; };
 		73C567141FE61CEE008B817A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C567131FE61CEE008B817A /* Colors.xcassets */; };
+		73C567311FE622D5008B817A /* BlueLightSaber.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5672C1FE622D5008B817A /* BlueLightSaber.png */; };
+		73C567321FE622D5008B817A /* StarWarsTheLastJedi.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5672D1FE622D5008B817A /* StarWarsTheLastJedi.png */; };
+		73C567331FE622D5008B817A /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5672E1FE622D5008B817A /* Ray.png */; };
+		73C567341FE622D5008B817A /* RedLightSaber.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C5672F1FE622D5008B817A /* RedLightSaber.png */; };
+		73C567351FE622D5008B817A /* Kylo_Ren_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C567301FE622D5008B817A /* Kylo_Ren_profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		73C5670B1FE61691008B817A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73C5670D1FE61691008B817A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73C567131FE61CEE008B817A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		73C5672C1FE622D5008B817A /* BlueLightSaber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueLightSaber.png; sourceTree = "<group>"; };
+		73C5672D1FE622D5008B817A /* StarWarsTheLastJedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarWarsTheLastJedi.png; sourceTree = "<group>"; };
+		73C5672E1FE622D5008B817A /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
+		73C5672F1FE622D5008B817A /* RedLightSaber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLightSaber.png; sourceTree = "<group>"; };
+		73C567301FE622D5008B817A /* Kylo_Ren_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kylo_Ren_profile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		73C567001FE61691008B817A /* ForceFlip */ = {
 			isa = PBXGroup;
 			children = (
+				73C5672B1FE6226F008B817A /* Assets */,
 				73C567011FE61691008B817A /* AppDelegate.swift */,
 				73C567031FE61691008B817A /* ViewController.swift */,
 				73C567051FE61691008B817A /* Main.storyboard */,
@@ -65,6 +76,18 @@
 				73C5670D1FE61691008B817A /* Info.plist */,
 			);
 			path = ForceFlip;
+			sourceTree = "<group>";
+		};
+		73C5672B1FE6226F008B817A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				73C5672C1FE622D5008B817A /* BlueLightSaber.png */,
+				73C567301FE622D5008B817A /* Kylo_Ren_profile.png */,
+				73C5672E1FE622D5008B817A /* Ray.png */,
+				73C5672F1FE622D5008B817A /* RedLightSaber.png */,
+				73C5672D1FE622D5008B817A /* StarWarsTheLastJedi.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +150,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C5670C1FE61691008B817A /* LaunchScreen.storyboard in Resources */,
+				73C567351FE622D5008B817A /* Kylo_Ren_profile.png in Resources */,
 				73C567141FE61CEE008B817A /* Colors.xcassets in Resources */,
+				73C567321FE622D5008B817A /* StarWarsTheLastJedi.png in Resources */,
 				73C567091FE61691008B817A /* Assets.xcassets in Resources */,
+				73C567341FE622D5008B817A /* RedLightSaber.png in Resources */,
 				73C567071FE61691008B817A /* Main.storyboard in Resources */,
+				73C567331FE622D5008B817A /* Ray.png in Resources */,
+				73C567311FE622D5008B817A /* BlueLightSaber.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
