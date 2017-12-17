@@ -12,10 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //MARK: Programatic Image Assets
+        let rls: UIImage = UIImage(named: "BlueLightSaber.png")!
+        let bls: UIImage = UIImage(named: "RedLightSaber.png")!
+
+        //MARK: ImageView for LightSabers
+        var imageView = UIImageView()
+        self.view.addSubview(imageView)
+        imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        
+        //MARK: 
+        
     }
 
-
-
+    
 }
 
