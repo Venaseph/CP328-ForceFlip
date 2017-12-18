@@ -15,33 +15,30 @@ class ViewController: UIViewController {
     @IBOutlet private var kJedi: UIButton!
     @IBOutlet private var kSith: UIButton!
     
-    private let choose : UILabel = {
-        let label = UILabel()
-        //label.text = "chooseWisely"
-        label.textColor = UIColor.white
-        label.textAlignment = .center
-        return label
-    }()
+    private let blue = UIImage(named: "BlueLightSaber.png")
+    private let red = UIImage(named: "RedLightSaber.png")
+    private var saberView : UIImageView!
+    private let screenSize: CGRect = UIScreen.main.bounds
+    
+    private let yelLabel = UILabel()
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //MARK: Programatic Image Assets
-        let rls: UIImage = UIImage(named: "BlueLightSaber.png")!
-        let bls: UIImage = UIImage(named: "RedLightSaber.png")!
+        saberView = UIImageView(frame: CGRect(x: 17, y: 450, width: screenSize.width * 0.8, height: screenSize.height * 0.3))
 
-        //MARK: UIImageView for LightSabers
-        var imageView = UIImageView()
-        self.view.addSubview(imageView)
-        imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        
-        //MARK: Label Strings
-
-
-        //place my label
-        choose.frame = CGRect(x: view.frame.width / 2 - 100, y: view.frame.height / 2 - 100, width: 200, height: 50)
-        view.addSubview(choose)
-
+    }
+    @IBAction func rJedi(_ sender: UIButton) {
+        saberView.image = blue
+        view.addSubview(saberView)
+        /*
+        yelLabel.text = "Ray chose the light side"
+        yelLabel.textColor =
+        view.addSubview(yelLabel)
+        */
     }
     
 }
+ 
+ 
