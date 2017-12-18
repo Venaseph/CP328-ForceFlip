@@ -20,7 +20,8 @@ class ViewController: UIViewController {
     private var saberView : UIImageView!
     private let screenSize: CGRect = UIScreen.main.bounds
     
-    private let yelLabel = UILabel()
+    private var yelLabel = UILabel()
+    
     
     
     override func viewDidLoad() {
@@ -31,11 +32,7 @@ class ViewController: UIViewController {
     @IBAction func rJedi(_ sender: UIButton) {
         saberView.image = blue
         view.addSubview(saberView)
-        /*
-        yelLabel.text = "Ray chose the light side"
-        yelLabel.textColor =
-        view.addSubview(yelLabel)
-        */
+
     }
     @IBAction func rSith(_ sender: UIButton) {
         saberView.image = red
