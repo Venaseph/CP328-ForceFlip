@@ -71,6 +71,9 @@
                                 <state key="normal" title="Sith">
                                     <color key="titleColor" name="Sith Red"/>
                                 </state>
+                                <connections>
+                                    <action selector="rSith:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MQe-0U-d4E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgW-zs-vUx">
                                 <rect key="frame" x="183.5" y="274.5" width="45.5" height="30.5"/>
@@ -81,6 +84,9 @@
                                 <state key="normal" title="Jedi">
                                     <color key="titleColor" name="Jedi Blue"/>
                                 </state>
+                                <connections>
+                                    <action selector="kJedi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ed8-kd-zTR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afe-ct-vDH">
                                 <rect key="frame" x="262" y="274.5" width="46" height="30.5"/>
@@ -91,6 +97,9 @@
                                 <state key="normal" title="Sith">
                                     <color key="titleColor" name="Sith Red"/>
                                 </state>
+                                <connections>
+                                    <action selector="kSith:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OZn-h7-mC6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>

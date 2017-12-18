@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     private let yelLabel = UILabel()
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         saberView = UIImageView(frame: CGRect(x: 17, y: 450, width: screenSize.width * 0.8, height: screenSize.height * 0.3))
@@ -37,6 +36,18 @@ class ViewController: UIViewController {
         yelLabel.textColor =
         view.addSubview(yelLabel)
         */
+    }
+    @IBAction func rSith(_ sender: UIButton) {
+        saberView.image = red
+        view.addSubview(saberView)
+    }
+    @IBAction func kJedi(_ sender: UIButton) {
+        saberView.image = blue
+        view.addSubview(saberView)
+    }
+    @IBAction func kSith(_ sender: UIButton) {
+        saberView.image = red
+        view.addSubview(saberView)
     }
     
 }
