@@ -23,15 +23,18 @@ class ViewController: UIViewController {
     private var yelLabel = UILabel()
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        saberView = UIImageView(frame: CGRect(x: 17, y: 450, width: screenSize.width * 0.8, height: screenSize.height * 0.3))
+        let cent = (screenSize.width * 0.5) * 0.15
+        let vert = (screenSize.height * 0.6)
+        saberView = UIImageView(frame: CGRect(x: cent, y: vert, width: screenSize.width * 0.85, height: screenSize.height * 0.35))
 
     }
     @IBAction func rJedi(_ sender: UIButton) {
         saberView.image = blue
+        saberView.contentMode = .scaleAspectFit
         view.addSubview(saberView)
+        view.addSubview(yelLabel)
 
     }
     @IBAction func rSith(_ sender: UIButton) {
