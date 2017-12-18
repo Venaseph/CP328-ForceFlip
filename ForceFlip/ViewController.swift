@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet private var rJedi: UIButton!
+    @IBOutlet private var rSith: UIButton!
+    @IBOutlet private var kJedi: UIButton!
+    @IBOutlet private var kSith: UIButton!
+    
     private let choose : UILabel = {
         let label = UILabel()
         //label.text = "chooseWisely"
